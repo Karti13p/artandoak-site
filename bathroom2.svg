@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Bathroom placeholder 1">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5efe6"/>
+      <stop offset="100%" stop-color="#d7c4ac"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g1)"/>
+  <rect x="120" y="130" width="960" height="640" rx="38" fill="#fcfbf8" opacity="0.92"/>
+  <rect x="180" y="210" width="340" height="420" rx="24" fill="#dde6eb"/>
+  <rect x="560" y="220" width="430" height="150" rx="22" fill="#ece7df"/>
+  <rect x="560" y="400" width="430" height="230" rx="22" fill="#f4efe7"/>
+  <circle cx="860" cy="295" r="26" fill="#c8a97e"/>
+  <rect x="610" y="465" width="160" height="28" rx="14" fill="#c8a97e"/>
+  <rect x="610" y="515" width="240" height="20" rx="10" fill="#d8d2ca"/>
+  <rect x="610" y="555" width="200" height="20" rx="10" fill="#d8d2ca"/>
+  <text x="600" y="720" text-anchor="middle" font-size="48" font-family="Inter, Arial, sans-serif" fill="#5f4324">Art &amp; Oak Bathroom Project 1</text>
+  <text x="600" y="780" text-anchor="middle" font-size="28" font-family="Inter, Arial, sans-serif" fill="#6b7280">Replace with your real project photo</text>
+</svg>

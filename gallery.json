@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "image": "images/gallery/bathroom1.svg",
+      "title": "Walk-in shower Carlisle",
+      "description": "Easy-access shower installation with clean lines and safer daily use.",
+      "alt": "Walk-in shower installation in Carlisle"
+    },
+    {
+      "image": "images/gallery/bathroom2.svg",
+      "title": "Bathroom renovation Cumbria",
+      "description": "A brighter bathroom layout with practical fittings and easy-clean surfaces.",
+      "alt": "Bathroom renovation in Cumbria"
+    },
+    {
+      "image": "images/gallery/bathroom3.svg",
+      "title": "Walk-in bath project",
+      "description": "Bathing solution for homeowners who still prefer a bath with easier entry.",
+      "alt": "Walk-in bath installation"
+    }
+  ]
+}

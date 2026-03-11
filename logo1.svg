@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Art and Oak logo">
+  <rect width="200" height="200" rx="36" fill="#1f2937"/>
+  <path d="M100 28 45 70v58c0 28 21 49 55 49s55-21 55-49V70L100 28Z" fill="#c8a97e" opacity=".18"/>
+  <path d="M66 132 99 57l35 75h-16l-7-17H88l-7 17H66Zm28-30h12L100 88l-6 14Z" fill="#f7f3ec"/>
+  <text x="100" y="166" text-anchor="middle" font-size="18" font-family="Inter, Arial, sans-serif" fill="#f7f3ec" letter-spacing="2">ART &amp; OAK</text>
+</svg>

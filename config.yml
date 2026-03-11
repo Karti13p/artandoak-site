@@ -1,0 +1,31 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME
+  branch: main
+  base_url: https://YOUR-OAUTH-DOMAIN.example.com
+  auth_endpoint: auth
+  site_domain: YOUR_GITHUB_PAGES_OR_CUSTOM_DOMAIN
+
+media_folder: "images/gallery"
+public_folder: "/images/gallery"
+publish_mode: simple
+
+collections:
+  - name: "gallery"
+    label: "Gallery"
+    label_singular: "Gallery item"
+    files:
+      - file: "data/gallery.json"
+        label: "Gallery items"
+        name: "galleryItems"
+        format: "json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Image", name: "image", widget: "image", choose_url: false }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text", required: false }
+              - { label: "Alt text", name: "alt", widget: "string", required: false }
