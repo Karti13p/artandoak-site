@@ -142,20 +142,21 @@
       </div>
     </section>
 
-    <section id="contact" class="section">
-      <div class="container contact-box">
-        <article class="card">
-          <div class="badge">Free consultation</div>
-          <h2 class="section-title" style="margin-top:14px">Request a free consultation</h2>
-          <p class="lead">Use the details opposite for calls, email enquiries, brochure requests or a home visit booking.</p>
-          <form class="lead-form" style="margin-top:18px">
-            <div class="lead-grid">
-              <input placeholder="Full name">
-              <input placeholder="Phone number">
-              <input placeholder="Email address">
-              <input placeholder="Postcode">
-            </div>
-            <textarea placeholder="Tell us what you need: walk-in bath, shower conversion, safety upgrade, or home visit." rows="5"></textarea>
+    <form action="https://formspree.io/f/mayvlzdp" method="POST" class="lead-form" style="margin-top:18px">
+  <div class="lead-grid">
+    <input type="text" name="name" placeholder="Full name" required>
+    <input type="tel" name="phone" placeholder="Phone number" required>
+    <input type="email" name="email" placeholder="Email address">
+    <input type="text" name="postcode" placeholder="Postcode">
+  </div>
+  <textarea name="message" placeholder="Tell us what you need: walk-in bath, shower conversion, safety upgrade, or home visit." rows="5"></textarea>
+  <label class="lead-check">
+    <input type="checkbox" name="consent" required> I agree to be contacted about my enquiry.
+  </label>
+  <div class="cta-row">
+    <button class="btn btn-primary" type="submit">Send enquiry</button>
+  </div>
+</form>
             <label class="lead-check"><input type="checkbox"> I agree to be contacted about my enquiry.</label>
             <div class="cta-row">
               <button class="btn btn-primary" type="button">Request a callback</button>
